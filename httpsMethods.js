@@ -80,19 +80,3 @@ module.exports.deleteRequest = (hostname, path) => {
 
   return universalRequest(deleteOptions);
 };
-
-
-// getRequest = (hostname, path) => {
-//   const getOptions = {
-//     method: 'GET',
-//     hostname,
-//     path,
-//   };
-
-//   return universalRequest(getOptions);
-// };
-
-// let hostname = 'www.googleapis.com';
-// let path = '/youtube/v3/videos?id=S6kPZWDHgQs&key=AIzaSyDhLNyp8r0AD5J7nNZ3ptbhh_yK--7OYyw&fields=items%28id%2Cstatistics%28viewCount%29%29&part=statistics';
-
-// getRequest(hostname, path).then(value => console.log(value));
